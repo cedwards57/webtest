@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ph.D on Sergey Plis</title>
+    <link>https://cedwards57.github.io/webtest/categories/ph.d/</link>
+    <description>Recent content in Ph.D on Sergey Plis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Nov 2022 05:00:00 +0000</lastBuildDate><atom:link href="https://cedwards57.github.io/webtest/categories/ph.d/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Alex Fedorov</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/alex-fedorov/</link>
+      <pubDate>Fri, 11 Nov 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/alex-fedorov/</guid>
+      <description>Research Summary I am interested in the following topics (with selected works):
+Self-Supervision: Natural Images [ICLR 2019], Neuroimaging [IEEE BHI 2019][MICCAI 2020][NeurIPS ML4H Workshop 2019] Multimodal Learning: Neuroimaging [IEEE ICHI 2021] Out-of-distribution Generalization, Robustness and Fairness: Neuroimaging [ICLR RobustML Workshop 2021] Interpretability: Neuroimaging [IEEE ISBI 2021], [Preprint] Image Segmentation: Brain Tissue [IJCNN 2017], Atlas [BigNeuro Workshop NeurIPS 2017] I also worked on Reinforcement Learning [NeurIPS Deep RL Workshop 2015] and Computer Vision problems (traffic sign recognition; age and gender recognition from human faces).</description>
+    </item>
+    
+    <item>
+      <title>Brad Baker</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/postdoc/brad-baker/</link>
+      <pubDate>Fri, 11 Nov 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/postdoc/brad-baker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pavel Popov</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/pavel-popov/</link>
+      <pubDate>Fri, 07 Aug 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/pavel-popov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Riyasat Ohib</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/riyasat-ohib/</link>
+      <pubDate>Fri, 07 Aug 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/riyasat-ohib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sajad Abavisani</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/sajad-abavisani/</link>
+      <pubDate>Fri, 07 Aug 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/sajad-abavisani/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usman Mahmood</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/usman-mahmood/</link>
+      <pubDate>Fri, 07 Aug 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/usman-mahmood/</guid>
+      <description>title </description>
+    </item>
+    
+    <item>
+      <title>William Ashbee</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/william-ashbee/</link>
+      <pubDate>Fri, 07 Aug 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/william-ashbee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yaorong Xiao</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/yaorong-xiao/</link>
+      <pubDate>Fri, 07 Aug 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/yaorong-xiao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zafar Iqbal</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/zafar-iqbal/</link>
+      <pubDate>Fri, 07 Aug 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/zafar-iqbal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minoo Jafarlou</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/minoo-jafarlou/</link>
+      <pubDate>Sun, 07 Jun 2020 05:04:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/minoo-jafarlou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mahfuzur Rahman</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/mahfuzur-rahman/</link>
+      <pubDate>Thu, 07 May 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/mahfuzur-rahman/</guid>
+      <description></description>
+    </item>
+    
+    
+  </channel>
+</rss>
