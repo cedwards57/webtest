@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Machine Learning</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/webtest/application.9a1339cf0c82223be612cb20d49110553afeda5dc152131edd5bf9d954c1137d.css" integrity="sha256-mhM5zwyCIjvmEssg1JEQVTr&#43;2l3BUhMe3Vv52VTBE30=" />
+
+
+
+
+
+<meta property="og:title" content="Advanced Machine Learning" />
+<meta property="og:description" content="Machine learning studies algorithms that build models from data for subsequent use in prediction, inference, and decision making tasks. Although an active field for the last 60 years, the current demand as well as trust in machine learning exploded as increasingly more data become available and the problems needed to be addressed become literally impossible to program directly. In this advanced course we will cover essential algorithms, concepts, and principles of machine learning." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cedwards57.github.io/webtest/classes/advancedml/" /><meta property="article:section" content="classes" />
+<meta property="article:published_time" content="2021-04-23T17:20:31-04:00" />
+<meta property="article:modified_time" content="2021-04-23T17:20:31-04:00" />
+
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Advanced Machine Learning"/>
+<meta name="twitter:description" content="Machine learning studies algorithms that build models from data for subsequent use in prediction, inference, and decision making tasks. Although an active field for the last 60 years, the current demand as well as trust in machine learning exploded as increasingly more data become available and the problems needed to be addressed become literally impossible to program directly. In this advanced course we will cover essential algorithms, concepts, and principles of machine learning."/>
+
+    
+    
+<meta name="description" content="Advanced Machine Learning" />
+
+
+    
+
+
+
+
+<script>
+      theme = localStorage.getItem('darkmode:color-scheme') || 'system';
+      if (theme == 'system') {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        } else {
+          theme = 'light';
+        }
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
+  </head>
+
+  <body class="type-classes kind-page" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/webtest">
+      Sergey Plis</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/webtest#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/webtest#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/webtest#funding">Funding</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/webtest#teaching">Teaching</a>
+                </li>
+              
+            
+            
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+        
+        
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/team">Team</a>
+              </li>
+            
+        
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/classes">Classes</a>
+              </li>
+            
+        
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/publications">Publications</a>
+              </li>
+            
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/webtest/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/webtest/publications/" title="Publications">Publications</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active list-link" href="/webtest/classes/" title="Classes">Classes</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/webtest/team/"> Team</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/webtest/team/phd/" title="Ph.D.">Ph.D.</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/webtest/team/postdoc/" title="Postdoc">Postdoc</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/webtest/team/master/" title="Masters">Masters</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/webtest/team/former/" title="Former">Former</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/webtest/images/default-hero.png);'>
+      </div>
+
+      
+      <div class="page-content">
+        
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/webtest/images/author/Sergey%20Plis_hu93679685e26dc9e6c15eede1205709df_368086_120x120_fit_box_3.png' alt="Author Image">
+          <h5 class="author-name">Sergey Plis  </h5>
+          <p class="text-muted">April 2021</p>
+        </div>
+        
+        
+        <div class="title">
+          <h1>Advanced Machine Learning</h1>
+        </div>
+
+        
+
+        
+          <div class="tags">
+  <ul style="padding-left: 0;">
+    
+  </ul>
+</div>
+
+        
+        <div class="post-content" id="post-content">
+          
+          <p>Machine learning  studies algorithms that  build models from  data for
+subsequent  use   in  prediction,   inference,  and   decision  making
+tasks. Although  an active field  for the  last 60 years,  the current
+demand as well  as trust in machine learning  exploded as increasingly
+more data  become available  and the problems  needed to  be addressed
+become  literally impossible  to  program directly.  In this  advanced
+course we will cover essential algorithms, concepts, and principles of
+machine learning. Along with the  traditional exposition we will learn
+how  these principles  are  currently being  revisited  thanks to  the
+recent discoveries in the field.</p>
+<h3 id="1-introduction">1. Introduction</h3>
+<h4 id="lecture-slidesamlcs8850_01_introhtml"><a href="/AML/cs8850_01_intro.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/n2mSG-XK3RY?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Introductions</a> 7:51</li>
+<li><a href="https://youtu.be/1u3erne4Sio?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Why Machine
+Learning</a>
+12:00</li>
+<li><a href="https://youtu.be/IqD-FgApHzE" target="_blank" rel="noopener">What is Machine Learning</a> 18:57</li>
+<li><a href="https://youtu.be/idpEF9xfRL8" target="_blank" rel="noopener">History of Machine
+Learning</a> 17:33</li>
+<li><a href="https://youtu.be/8kgyGW4PJnc" target="_blank" rel="noopener">Reinforcement Learning</a> 10:32</li>
+<li><a href="https://youtu.be/lxxnAyDbCLE" target="_blank" rel="noopener">Course Overview</a> 19:26</li>
+<li><a href="https://youtu.be/P-5aeq8sG00?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">The
+Project</a>
+20:03</li>
+</ol>
+<h3 id="2-foundations-of-learning">2. Foundations of learning</h3>
+<h4 id="lecture-slidesamlcs8850_02_ermhtml"><a href="/AML/cs8850_02_erm.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-1">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/yqUG88kTByI?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Formalizing the Problem of
+Learning</a> 24:19</li>
+<li><a href="https://youtu.be/GCqoI5J7iRg" target="_blank" rel="noopener">Inductive Bias</a> 12:03</li>
+<li><a href="https://youtu.be/B2lJ6ZQgWjU?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Can We Bound the Probability of Error?</a>
+25:56</li>
+</ol>
+<h3 id="3-pac-learnability">3. PAC learnability</h3>
+<h4 id="lecture-slidesamlcs8850_03_pachtml"><a href="/AML/cs8850_03_pac.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-2">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/x4x7Wg_kpsA?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Main Definitions from Lecture
+2</a>
+13:52</li>
+<li><a href="https://youtu.be/KDaBG4L3P8A?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Agnostic PAC
+Learning</a>
+53:35</li>
+<li><a href="https://youtu.be/s3DRQHr9SVI?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Learning via Uniform
+Convergence</a>
+10:15</li>
+</ol>
+<h3 id="4-linear-algebra-and-optimization-recap">4. Linear algebra and Optimization (recap)</h3>
+<ol>
+<li><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" target="_blank" rel="noopener">3Blue1Brown Playlist</a></li>
+</ol>
+<h3 id="5-linear-learning-models">5. Linear learning models</h3>
+<h4 id="lecture-slidesamlcs8850_05_linearhtml"><a href="/AML/cs8850_05_linear.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-3">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/G5Adbaj54Ew?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Linear Decision
+Boundary</a> 34:10</li>
+<li><a href="https://youtu.be/MAvLeK4cbUI?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Perceptron</a>
+37:10</li>
+<li><a href="https://youtu.be/rAbf1h16dZo?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Perceptron
+Extensions</a>
+14:09</li>
+<li><a href="https://youtu.be/619G2Mgnlpw?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Linear Classifier for Linearly non Separable
+Classes</a>
+8:59</li>
+</ol>
+<h3 id="6-principal-component-analysis">6. Principal Component Analysis</h3>
+<h4 id="lecture-slidesamlcs8850_06_pcahtml"><a href="/AML/cs8850_06_pca.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-4">Youtube lectures</h4>
+<ol>
+<li><a href="https://youtu.be/D3aelYmwfL8?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Linear
+Regression</a>
+39:24</li>
+<li><a href="https://youtu.be/Ow3iluZkHJs?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Linear Algebra Micro
+Refresher</a>
+2:04</li>
+<li><a href="https://youtu.be/ZNRQFAx28WY?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Spectral
+Theorem</a>
+25:54</li>
+<li><a href="https://youtu.be/EXDMzm3_e78?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Principal Component
+Analysis</a>
+22:29</li>
+<li><a href="https://youtu.be/15tPLTsDeyg?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Demonstration</a> 17:38</li>
+</ol>
+<h3 id="7-curse-of-dimensionality">7. Curse of Dimensionality</h3>
+<h4 id="lecture-slidesamlcs8850_07_cursehtml"><a href="/AML/cs8850_07_curse.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-5">Youtube lectures</h4>
+<ol>
+<li><a href="https://youtu.be/jcFKqAbExeE?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Curse of Dimensionality</a> 1:16:27</li>
+</ol>
+<h3 id="8-bayesian-decision-theory">8. Bayesian Decision Theory</h3>
+<h4 id="lecture-slidesamlcs8850_08_bayeshtml"><a href="/AML/cs8850_08_bayes.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-6">Youtube lectures</h4>
+<ol>
+<li><a href="https://youtu.be/se3cKtL30i0?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Bayesian Decision Theory</a> 56:47</li>
+</ol>
+<h3 id="9-parameter-estimation-mle">9. Parameter estimation: MLE</h3>
+<h4 id="lecture-slidesamlcs8850_09_mlehtml"><a href="/AML/cs8850_09_MLE.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-7">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/pulSqfONQBs?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Independence</a>
+12:07</li>
+<li><a href="https://youtu.be/XPwXf8N9Uq0" target="_blank" rel="noopener">Maximum Likelihood Estimation</a> 50:35</li>
+<li><a href="https://youtu.be/j1ytTIYfdlY?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">MLE as KL-divergence
+minimization</a> 21:41</li>
+</ol>
+<h3 id="10-parameter-estimation-map--naiumlve-bayes">10. Parameter estimation: MAP &amp; Naïve Bayes</h3>
+<h4 id="lecture-slidesamlcs8850_10_naive_bayeshtml"><a href="/AML/cs8850_10_naive_bayes.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-8">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/iACJJ4_AN4I?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">MAP
+Estimation</a>
+56:00</li>
+<li><a href="https://youtu.be/QsAe2e7d9m0?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">The Naïve Bayes Classifier</a> 37:09</li>
+</ol>
+<h3 id="11-logistic-regression">11. Logistic Regression</h3>
+<h4 id="lecture-slidesamlcs8850_11_logistic_regressionhtml"><a href="/AML/cs8850_11_logistic_regression.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-9">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/SRG2CgyQ9TY?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">NB to
+LR</a>
+19:49</li>
+<li><a href="https://youtu.be/kb3uUypVC8I?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Defining Logistic
+Regression</a>
+27:42</li>
+<li><a href="https://youtu.be/eC58QL1BZCA?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Solving Logistic Regression</a> 23:35</li>
+</ol>
+<h3 id="12-kernel-density-estimation">12. Kernel Density Estimation</h3>
+<h4 id="lecture-slidesamlcs8850_12_kde_etchtml"><a href="/AML/cs8850_12_kde_etc.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-10">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/kJBmvF9HqCc?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Non-parametric Density Estimation</a> 1:13:33</li>
+</ol>
+<h3 id="13-support-vector-machines">13. Support Vector Machines</h3>
+<h4 id="lecture-slidesamlcs8850_13_svmhtml"><a href="/AML/cs8850_13_svm.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-11">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/0QM95dkRdW4?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Max Margin
+Classifier</a>
+35:53</li>
+<li><a href="https://youtu.be/s_gJ0j_fEZU?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Lagrange
+Multipliers</a>
+32:45</li>
+<li><a href="https://youtu.be/4eEuFI5FInY?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Dual Formulation of Linear
+SVM</a>
+10:34</li>
+<li><a href="https://youtu.be/_5OK22gB2O8?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Kernel Trick and Soft Margin</a> 27:28</li>
+</ol>
+<h3 id="14-matrix-factorization">14. Matrix Factorization</h3>
+<h4 id="lecture-slidesamlcs8850_14_facthtml"><a href="/AML/cs8850_14_fact.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-12">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/rkEJdK8nxsw?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Matrix Factorization</a> 1:24:22</li>
+</ol>
+<h3 id="15-stochastic-gradient-descent">15. Stochastic Gradient Descent</h3>
+<h4 id="lecture-slidesamlcs8850_15_sgdhtml"><a href="/AML/cs8850_15_SGD.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-13">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/FCMQ09fDfy0?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Stochastic Gradient Descent</a> 1:06:57</li>
+</ol>
+<h3 id="16-k-means-clustering">16. k-means Clustering</h3>
+<h4 id="lecture-slidesamlcs8850_16_kmeanshtml"><a href="/AML/cs8850_16_kmeans.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-14">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/cxcHmgYuXpE?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Clustering</a>
+6:05</li>
+<li><a href="https://youtu.be/Q9yV86BrCII?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Gaussian Mixture
+Models</a>
+16:34</li>
+<li><a href="https://youtu.be/meRPb0SbGxc?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">MLE
+recap</a>
+4:20</li>
+<li><a href="https://youtu.be/838SN9pqj7c?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Hard k-means
+Clustering</a>
+30:27</li>
+<li><a href="https://youtu.be/SnO77_iy0sA?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Soft k-means Clustering</a> 7:18</li>
+</ol>
+<h3 id="17-expectation-maximization">17. Expectation Maximization</h3>
+<h4 id="lecture-slidesamlcs8850_17_emhtml"><a href="/AML/cs8850_17_EM.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-15">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/J-3If9t0p_0?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Do we even need EM for
+GMM?</a>
+14:39</li>
+<li><a href="https://youtu.be/Bn6L3rB9eiw?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">A &ldquo;hacky&rdquo; GMM
+estimation</a>
+15:17</li>
+<li><a href="https://youtu.be/tWOO3g_BZ-Y?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">MLE via
+EM</a> 38:28</li>
+</ol>
+<h3 id="18-automatic-differentiation">18. Automatic Differentiation</h3>
+<h4 id="lecture-slidesamlcs8850_18_adhtml"><a href="/AML/cs8850_18_AD.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-16">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/Ct7N2VOrglk?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Introduction</a>
+25:10</li>
+<li><a href="https://youtu.be/gQ3IG6nt2TY?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Forward Mode
+AD</a>
+26:46</li>
+<li><a href="https://youtu.be/xHXwJgA-HiQ?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">A minute of
+Backprop</a>
+2:26</li>
+<li><a href="https://youtu.be/rzkmkT-_LuY?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Reverse mode
+AD</a>
+17:26</li>
+</ol>
+<h3 id="19-nonlinear-embedding-approaches">19. Nonlinear Embedding Approaches</h3>
+<h4 id="lecture-slidesamlcs8850_19_manifoldhtml"><a href="/AML/cs8850_19_manifold.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-17">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/Bz1UCuX-ynM?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Manifold
+Learning</a>
+20:13</li>
+</ol>
+<h3 id="20-model-comparison-i">20. Model Comparison I</h3>
+<h4 id="lecture-slidesamlcs8850_20_model_comparison_1html"><a href="/AML/cs8850_20_model_comparison_1.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-18">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/QFGqk9iZfYk?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Bias Variance
+Trade-Off</a>
+36:52</li>
+<li><a href="https://youtu.be/eIxocDyv1q0?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">No Free Lunch
+Theorem</a>
+7:29</li>
+<li><a href="https://youtu.be/4fE1-GM6yWs?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Problems with using accuracy as performance
+indicator</a>
+12:39</li>
+<li><a href="https://youtu.be/5qmz7EpvC9U?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Confusion
+Matrix</a>
+25:15</li>
+</ol>
+<h3 id="21-model-comparison-ii">21. Model Comparison II</h3>
+<h4 id="lecture-slidesamlcs8850_21_model_comparison_2html"><a href="/AML/cs8850_21_model_comparison_2.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-19">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/gyLWpT2hFq8?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Cross validation and
+hyperopt</a> 29:08</li>
+<li><a href="https://youtu.be/iTriOxl3XIo?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Expected Value
+Framework</a>
+22:48</li>
+<li><a href="https://youtu.be/eJE5w2iD1G8?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Visualizing Model Performance
+1</a>
+31:02</li>
+<li><a href="https://youtu.be/8xe9wzWBdyM?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Receiver Operating Characteristics</a> 22:34</li>
+</ol>
+<h3 id="22-model-calibration">22. Model Calibration</h3>
+<h4 id="lecture-slidesamlcs8850_22_calibrationhtml"><a href="/AML/cs8850_22_calibration.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-20">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/rRhKGNFyPhg?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">On Model
+Calibration</a>
+36:53</li>
+</ol>
+<h3 id="23-convolutional-neural-networks">23. Convolutional Neural Networks</h3>
+<h4 id="lecture-slidesamlcs8850_23_cnnhtml"><a href="/AML/cs8850_23_CNN.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-21">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/qR4sdFPrqVg?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Building
+Blocks</a>
+39:22</li>
+<li><a href="https://youtu.be/XHjnHTysyjg?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Skip
+Connection</a>
+38:46</li>
+<li><a href="https://youtu.be/CGSwcJ8eJeM?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Fully Convolutional
+Networks</a>
+8:07</li>
+<li><a href="https://youtu.be/S4HrJAFhkCA?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Semantic Segmentation with
+Twists</a>
+23:40</li>
+<li><a href="https://youtu.be/p8CaLxm6lPw?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Special Convolutions</a> 20:15</li>
+</ol>
+<h3 id="24-word-embedding">24. Word Embedding</h3>
+<h4 id="lecture-slidesamlcs8850_24_embeddinghtml"><a href="/AML/cs8850_24_embedding.html">Lecture Slides</a></h4>
+<h4 id="youtube-lectures-22">Youtube Lectures</h4>
+<ol>
+<li><a href="https://youtu.be/8tTxF8rjSZ8?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Introduction</a>
+10:35</li>
+<li><a href="https://youtu.be/3GM8Azmx1bI?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">Semantic Matrix</a> 30:26</li>
+<li><a href="https://youtu.be/QzT1dzQxOp0?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR" target="_blank" rel="noopener">word2vec</a>
+54:22</li>
+</ol>
+
+          
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+          <div class="col-md-6 share-buttons">
+
+            
+          
+          </div>
+
+        
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"  data-toggle="tooltip" data-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-introduction">1. Introduction</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_01_introhtml"><a href="/AML/cs8850_01_intro.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#2-foundations-of-learning">2. Foundations of learning</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_02_ermhtml"><a href="/AML/cs8850_02_erm.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-1">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#3-pac-learnability">3. PAC learnability</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_03_pachtml"><a href="/AML/cs8850_03_pac.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-2">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#4-linear-algebra-and-optimization-recap">4. Linear algebra and Optimization (recap)</a></li>
+        <li><a href="#5-linear-learning-models">5. Linear learning models</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_05_linearhtml"><a href="/AML/cs8850_05_linear.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-3">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#6-principal-component-analysis">6. Principal Component Analysis</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_06_pcahtml"><a href="/AML/cs8850_06_pca.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-4">Youtube lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#7-curse-of-dimensionality">7. Curse of Dimensionality</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_07_cursehtml"><a href="/AML/cs8850_07_curse.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-5">Youtube lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#8-bayesian-decision-theory">8. Bayesian Decision Theory</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_08_bayeshtml"><a href="/AML/cs8850_08_bayes.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-6">Youtube lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#9-parameter-estimation-mle">9. Parameter estimation: MLE</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_09_mlehtml"><a href="/AML/cs8850_09_MLE.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-7">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#10-parameter-estimation-map--naiumlve-bayes">10. Parameter estimation: MAP &amp; Naïve Bayes</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_10_naive_bayeshtml"><a href="/AML/cs8850_10_naive_bayes.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-8">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#11-logistic-regression">11. Logistic Regression</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_11_logistic_regressionhtml"><a href="/AML/cs8850_11_logistic_regression.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-9">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#12-kernel-density-estimation">12. Kernel Density Estimation</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_12_kde_etchtml"><a href="/AML/cs8850_12_kde_etc.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-10">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#13-support-vector-machines">13. Support Vector Machines</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_13_svmhtml"><a href="/AML/cs8850_13_svm.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-11">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#14-matrix-factorization">14. Matrix Factorization</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_14_facthtml"><a href="/AML/cs8850_14_fact.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-12">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#15-stochastic-gradient-descent">15. Stochastic Gradient Descent</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_15_sgdhtml"><a href="/AML/cs8850_15_SGD.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-13">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#16-k-means-clustering">16. k-means Clustering</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_16_kmeanshtml"><a href="/AML/cs8850_16_kmeans.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-14">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#17-expectation-maximization">17. Expectation Maximization</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_17_emhtml"><a href="/AML/cs8850_17_EM.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-15">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#18-automatic-differentiation">18. Automatic Differentiation</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_18_adhtml"><a href="/AML/cs8850_18_AD.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-16">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#19-nonlinear-embedding-approaches">19. Nonlinear Embedding Approaches</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_19_manifoldhtml"><a href="/AML/cs8850_19_manifold.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-17">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#20-model-comparison-i">20. Model Comparison I</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_20_model_comparison_1html"><a href="/AML/cs8850_20_model_comparison_1.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-18">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#21-model-comparison-ii">21. Model Comparison II</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_21_model_comparison_2html"><a href="/AML/cs8850_21_model_comparison_2.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-19">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#22-model-calibration">22. Model Calibration</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_22_calibrationhtml"><a href="/AML/cs8850_22_calibration.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-20">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#23-convolutional-neural-networks">23. Convolutional Neural Networks</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_23_cnnhtml"><a href="/AML/cs8850_23_CNN.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-21">Youtube Lectures</a></li>
+          </ul>
+        </li>
+        <li><a href="#24-word-embedding">24. Word Embedding</a>
+          <ul>
+            <li><a href="#lecture-slidesamlcs8850_24_embeddinghtml"><a href="/AML/cs8850_24_embedding.html">Lecture Slides</a></a></li>
+            <li><a href="#youtube-lectures-22">Youtube Lectures</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://cedwards57.github.io/webtest/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://cedwards57.github.io/webtest/#funding">Funding</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://cedwards57.github.io/webtest/#teaching">Teaching</a>
+                </li>
+              
+              
+            
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="/team">Team</a>
+                    </li>
+                
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="/classes">Classes</a>
+                    </li>
+                
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="/publications">Publications</a>
+                    </li>
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:splis@gsu.edu target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>splis@gsu.edu</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/neuroneural target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>neuroneural</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.linkedin.com/in/sergeyplis target="_blank" rel="noopener">
+                  <span><i class="fab fa-linkedin"></i></span> <span>Sergey Plis</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='https://cedwards57.github.io/webtest//index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </div>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/webtest/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2020 Copyright.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/webtest/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/webtest/application.efdd16f81ad376f6cf26ad670e62b9b1981037f04092d0b204705238a539d337.js" integrity="sha256-790W&#43;BrTdvbPJq1nDmK5sZgQN/BAktCyBHBSOKU50zc=" defer></script>
+
+
+    
+     
+
+    
+</body>
+</html>

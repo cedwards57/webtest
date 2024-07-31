@@ -8,19 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 31 Dec 2021 05:00:00 +0000</lastBuildDate><atom:link href="https://cedwards57.github.io/webtest/tags/2021/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Single-shot pruning for offline reinforcement learning</title>
-      <link>https://cedwards57.github.io/webtest/posts/papers/single-shot-pruning-for-offline-reinforcement-learning/</link>
+      <link>https://cedwards57.github.io/webtest/publications/single-shot-pruning-for-offline-reinforcement-learning/</link>
       <pubDate>Fri, 31 Dec 2021 05:00:00 +0000</pubDate>
       
-      <guid>https://cedwards57.github.io/webtest/posts/papers/single-shot-pruning-for-offline-reinforcement-learning/</guid>
+      <guid>https://cedwards57.github.io/webtest/publications/single-shot-pruning-for-offline-reinforcement-learning/</guid>
       <description>Deep Reinforcement Learning (RL) is a powerful framework for solving complex real-world problems. Large neural networks employed in the framework are traditionally associated with better generalization capabilities, but their increased size entails the drawbacks of extensive training duration, substantial hardware resources, and longer inference times. One way to tackle this problem is to prune neural networks leaving only the necessary parameters. State-of-the-art concurrent pruning techniques for imposing sparsity perform demonstrably well in applications where data distributions are fixed.</description>
     </item>
     
     <item>
       <title>Federated analysis of neuroimaging data: A review of the field</title>
-      <link>https://cedwards57.github.io/webtest/posts/papers/federated-analysis-of-neuroimaging-data-a-review-of-the-field/</link>
+      <link>https://cedwards57.github.io/webtest/publications/federated-analysis-of-neuroimaging-data-a-review-of-the-field/</link>
       <pubDate>Mon, 22 Nov 2021 05:00:00 +0000</pubDate>
       
-      <guid>https://cedwards57.github.io/webtest/posts/papers/federated-analysis-of-neuroimaging-data-a-review-of-the-field/</guid>
+      <guid>https://cedwards57.github.io/webtest/publications/federated-analysis-of-neuroimaging-data-a-review-of-the-field/</guid>
       <description>The field of neuroimaging has embraced sharing data to collaboratively advance our understanding of the brain. However, data sharing, especially across sites with large amounts of protected health information (PHI), can be cumbersome and time intensive. Recently, there has been a greater push towards collaborative frameworks that enable large-scale federated analysis of neuroimaging data without the data having to leave its original location. However, there still remains a need for a standardized federated approach that not only allows for data sharing adhering to the FAIR (Findability, Accessibility, Interoperability, Reusability) data principles, but also streamlines analyses and communication while maintaining subject privacy.</description>
     </item>
     

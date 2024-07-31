@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Former on Sergey Plis</title>
+    <link>https://cedwards57.github.io/webtest/teamtags/former/</link>
+    <description>Recent content in Former on Sergey Plis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cedwards57.github.io/webtest/teamtags/former/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Capella Edwards</title>
+      <link>https://cedwards57.github.io/webtest/team/former/capella-edwards/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/team/former/capella-edwards/</guid>
+      <description>I’m enthusiastic about deep learning and how its applications can help people, especially in neuroimaging and other medical contexts. My current area of focus is on diagnostics with fMRI data.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

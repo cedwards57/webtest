@@ -2,71 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/alex-fedorov/</loc>
-    <lastmod>2022-11-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/postdoc/mohamed-masoud/</loc>
-    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/minoo-jafarlou/</loc>
-    <lastmod>2020-06-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/armina-fani/</loc>
+    <loc>https://cedwards57.github.io/webtest/team/phd/armina-fani/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/master/mike-doan/</loc>
-    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/master/alexandre-castelnau/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/pavel-popov/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/classes/advancedml/</loc>
-    <lastmod>2021-04-23T17:20:31-04:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/william-ashbee/</loc>
-    <lastmod>2020-08-07T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/master/mrinal-mathur/</loc>
-    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/master/pratyush-reddy/</loc>
-    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/riyasat-ohib/</loc>
-    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/sajad-abavisani/</loc>
-    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/usman-mahmood/</loc>
-    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/yaorong-xiao/</loc>
-    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/master/farfalla-hu/</loc>
-    <lastmod>2020-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/zafar-iqbal/</loc>
-    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/joanne-wardell/</loc>
+    <loc>https://cedwards57.github.io/webtest/team/phd/joanne-wardell/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/postdoc/brad-baker/</loc>
+    <loc>https://cedwards57.github.io/webtest/team/phd/alex-fedorov/</loc>
     <lastmod>2022-11-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/former/capella-edwards/</loc>
+    <loc>https://cedwards57.github.io/webtest/team/phd/pavel-popov/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/phd/william-ashbee/</loc>
+    <lastmod>2020-08-07T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/phd/riyasat-ohib/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/phd/sajad-abavisani/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/phd/usman-mahmood/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/phd/yaorong-xiao/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/postdoc/mohamed-masoud/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/phd/minoo-jafarlou/</loc>
+    <lastmod>2020-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/phd/zafar-iqbal/</loc>
+    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/phd/md-mahfuzur-rahman/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/master/mike-doan/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/master/alexandre-castelnau/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/classes/advancedml/</loc>
+    <lastmod>2021-04-23T17:20:31-04:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/master/mrinal-mathur/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/master/pratyush-reddy/</loc>
+    <lastmod>2020-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/master/farfalla-hu/</loc>
+    <lastmod>2020-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/postdoc/brad-baker/</loc>
+    <lastmod>2022-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/former/capella-edwards/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/postdoc/kseniya-solovyeva/</loc>
+    <loc>https://cedwards57.github.io/webtest/team/postdoc/kseniya-solovyeva/</loc>
     <lastmod>2020-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/md-mahfuzur-rahman/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cedwards57.github.io/webtest/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
@@ -171,28 +171,25 @@
     <loc>https://cedwards57.github.io/webtest/categories/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/tags/ph.d/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/</loc>
+    <loc>https://cedwards57.github.io/webtest/teamtags/ph.d/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cedwards57.github.io/webtest/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/tags/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://cedwards57.github.io/webtest/categories/team/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/tags/master/</loc>
+    <loc>https://cedwards57.github.io/webtest/teamtags/</loc>
+    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/teamtags/master/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cedwards57.github.io/webtest/tags/2023/</loc>
     <lastmod>2023-02-20T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/causal-learning-through-deliberate-undersampling/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/causal-learning-through-deliberate-undersampling/</loc>
     <lastmod>2023-02-20T05:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cedwards57.github.io/webtest/tags/paper/</loc>
@@ -204,103 +201,112 @@
     <loc>https://cedwards57.github.io/webtest/categories/publications/</loc>
     <lastmod>2023-02-20T05:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://cedwards57.github.io/webtest/tags/</loc>
+    <lastmod>2023-02-20T05:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://cedwards57.github.io/webtest/tags/2022/</loc>
     <lastmod>2022-09-07T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/self-supervised-multimodal-neuroimaging-yields-predictive-representations-for-a-spectrum-of-alzheimers-phenotypes/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/self-supervised-multimodal-neuroimaging-yields-predictive-representations-for-a-spectrum-of-alzheimers-phenotypes/</loc>
     <lastmod>2022-09-07T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/pipeline-invariant-representation-learning-for-neuroimaging/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/pipeline-invariant-representation-learning-for-neuroimaging/</loc>
     <lastmod>2022-08-27T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/interpreting-models-interpreting-brain-dynamics/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/interpreting-models-interpreting-brain-dynamics/</loc>
     <lastmod>2022-07-21T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/mind-the-gap-functional-network-connectivity-interpolation-between-schizophrenia-patients-and-controls-using-a-variational-autoencoder/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/mind-the-gap-functional-network-connectivity-interpolation-between-schizophrenia-patients-and-controls-using-a-variational-autoencoder/</loc>
     <lastmod>2022-07-11T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/statelets-capturing-recurrent-transient-variations-in-dynamic-functional-network-connectivity/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/statelets-capturing-recurrent-transient-variations-in-dynamic-functional-network-connectivity/</loc>
     <lastmod>2022-06-01T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/constraint-based-causal-structure-learning-from-undersampled-graphs/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/constraint-based-causal-structure-learning-from-undersampled-graphs/</loc>
     <lastmod>2022-05-18T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/privacypreserving-quality-control-of-neuroimaging-datasets-in-federated-environments/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/privacypreserving-quality-control-of-neuroimaging-datasets-in-federated-environments/</loc>
     <lastmod>2022-05-01T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/tags/former/</loc>
+    <loc>https://cedwards57.github.io/webtest/teamtags/former/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/decentralized-brain-age-estimation-using-mri-data/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/decentralized-brain-age-estimation-using-mri-data/</loc>
     <lastmod>2022-04-05T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/three-way-parallel-group-independent-component-analysis-fusion-of-spatial-and-spatiotemporal-magnetic-resonance-imaging-data/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/three-way-parallel-group-independent-component-analysis-fusion-of-spatial-and-spatiotemporal-magnetic-resonance-imaging-data/</loc>
     <lastmod>2022-03-01T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/deep-learning-in-neuroimaging-promises-and-challenges/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/deep-learning-in-neuroimaging-promises-and-challenges/</loc>
     <lastmod>2022-02-24T05:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cedwards57.github.io/webtest/categories/classes/</loc>
     <lastmod>2022-02-14T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/classes/introduction_to_dl/</loc>
+    <loc>https://cedwards57.github.io/webtest/classes/introduction_to_dl/</loc>
     <lastmod>2022-02-14T00:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/federated-analysis-in-coinstac-reveals-functional-network-connectivity-and-spectral-links-to-smoking-and-alcohol-consumption-in-nearly-2000-adolescent-brains/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/federated-analysis-in-coinstac-reveals-functional-network-connectivity-and-spectral-links-to-smoking-and-alcohol-consumption-in-nearly-2000-adolescent-brains/</loc>
     <lastmod>2022-01-01T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/path-analysis-a-method-to-estimate-altered-pathways-in-time-varying-graphs-of-neuroimaging-data/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/path-analysis-a-method-to-estimate-altered-pathways-in-time-varying-graphs-of-neuroimaging-data/</loc>
     <lastmod>2022-01-01T05:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cedwards57.github.io/webtest/tags/2021/</loc>
     <lastmod>2021-12-31T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/single-shot-pruning-for-offline-reinforcement-learning/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/single-shot-pruning-for-offline-reinforcement-learning/</loc>
     <lastmod>2021-12-31T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/federated-analysis-of-neuroimaging-data-a-review-of-the-field/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/federated-analysis-of-neuroimaging-data-a-review-of-the-field/</loc>
     <lastmod>2021-11-22T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/tags/postdoc/</loc>
+    <loc>https://cedwards57.github.io/webtest/teamtags/postdoc/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cedwards57.github.io/webtest/tags/class/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/categories/class/</loc>
+    <loc>https://cedwards57.github.io/webtest/classes/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/classes/</loc>
+    <loc>https://cedwards57.github.io/webtest/tags/former/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/former/</loc>
+    <loc>https://cedwards57.github.io/webtest/team/former/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/master/</loc>
+    <loc>https://cedwards57.github.io/webtest/tags/master/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/</loc>
+    <loc>https://cedwards57.github.io/webtest/team/master/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/phd/</loc>
+    <loc>https://cedwards57.github.io/webtest/tags/ph.d/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/postdoc/</loc>
+    <loc>https://cedwards57.github.io/webtest/team/phd/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/categories/publication/</loc>
+    <loc>https://cedwards57.github.io/webtest/tags/postdoc/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/team/</loc>
+    <loc>https://cedwards57.github.io/webtest/team/postdoc/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/publications/</loc>
+    <lastmod>2020-06-08T08:06:25+06:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/team/</loc>
     <lastmod>2020-06-08T08:06:25+06:00</lastmod>
   </url><url>
     <loc>https://cedwards57.github.io/webtest/tags/2014/</loc>
     <lastmod>2014-03-01T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/geometrically-guided-saliency-maps/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/geometrically-guided-saliency-maps/</loc>
     <lastmod>2014-03-01T05:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cedwards57.github.io/webtest/posts/papers/tracking-whole-brain-connectivity-dynamics-in-the-resting-state/</loc>
+    <loc>https://cedwards57.github.io/webtest/publications/tracking-whole-brain-connectivity-dynamics-in-the-resting-state/</loc>
     <lastmod>2014-03-01T05:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cedwards57.github.io/webtest/notes/</loc>
@@ -308,6 +314,12 @@
   </url><url>
     <loc>https://cedwards57.github.io/webtest/search/</loc>
     <lastmod>2010-06-08T08:06:25+06:00</lastmod>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/classtags/</loc>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/posts/</loc>
+  </url><url>
+    <loc>https://cedwards57.github.io/webtest/pubtags/</loc>
   </url><url>
     <loc>https://cedwards57.github.io/webtest/search/</loc>
     <priority>0.1</priority>

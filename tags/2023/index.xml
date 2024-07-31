@@ -8,10 +8,10 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Feb 2023 05:00:00 +0000</lastBuildDate><atom:link href="https://cedwards57.github.io/webtest/tags/2023/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Causal Learning through Deliberate Undersampling</title>
-      <link>https://cedwards57.github.io/webtest/posts/papers/causal-learning-through-deliberate-undersampling/</link>
+      <link>https://cedwards57.github.io/webtest/publications/causal-learning-through-deliberate-undersampling/</link>
       <pubDate>Mon, 20 Feb 2023 05:00:00 +0000</pubDate>
       
-      <guid>https://cedwards57.github.io/webtest/posts/papers/causal-learning-through-deliberate-undersampling/</guid>
+      <guid>https://cedwards57.github.io/webtest/publications/causal-learning-through-deliberate-undersampling/</guid>
       <description>Domain scientists interested in causal mechanisms are usually limited by the frequency at which they can collect the measurements of social, physical, or biological systems.
 A common and plausible assumption is that higher measurement frequencies are the only way to gain more informative data about the underlying dynamical causal structure. This assumption is a strong driver for designing new, faster instruments, but such instruments might not be feasible or even possible.</description>
     </item>
