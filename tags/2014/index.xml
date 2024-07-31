@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2014 on Sergey Plis</title>
+    <link>https://cedwards57.github.io/webtest/tags/2014/</link>
+    <description>Recent content in 2014 on Sergey Plis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Mar 2014 05:00:00 +0000</lastBuildDate><atom:link href="https://cedwards57.github.io/webtest/tags/2014/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Geometrically Guided Saliency Maps</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/geometrically-guided-saliency-maps/</link>
+      <pubDate>Sat, 01 Mar 2014 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/geometrically-guided-saliency-maps/</guid>
+      <description>Interpretability methods for deep neural networks mainly focus on modifying the rules of automatic differentiation or perturbing the input and observing the score drop to determine the most relevant features. Among them, gradient-based attribution methods, such as saliency maps, are arguably the most popular. Still, the produced saliency maps may often lack intelligibility. We address this problem based on recent discoveries in geometric properties of deep neural networks&amp;rsquo; loss landscape that reveal the existence of a multiplicity of local minima in the vicinity of a trained model&amp;rsquo;s loss surface.</description>
+    </item>
+    
+    <item>
+      <title>Tracking whole-brain connectivity dynamics in the resting state</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/tracking-whole-brain-connectivity-dynamics-in-the-resting-state/</link>
+      <pubDate>Sat, 01 Mar 2014 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/tracking-whole-brain-connectivity-dynamics-in-the-resting-state/</guid>
+      <description>Spontaneous fluctuations are a hallmark of recordings of neural signals, emergent over time scales spanning milliseconds and tens of minutes. However, investigations of intrinsic brain organization based on resting-state functional magnetic resonance imaging have largely not taken into account the presence and potential of temporal variability, as most current approaches to examine functional connectivity (FC) implicitly assume that relationships are constant throughout the length of the recording. In this work, we describe an approach to assess whole-brain FC dynamics based on spatial independent component analysis, sliding time window correlation, and k-means clustering of windowed correlation matrices.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

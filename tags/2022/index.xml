@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2022 on Sergey Plis</title>
+    <link>https://cedwards57.github.io/webtest/tags/2022/</link>
+    <description>Recent content in 2022 on Sergey Plis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Sep 2022 05:00:00 +0000</lastBuildDate><atom:link href="https://cedwards57.github.io/webtest/tags/2022/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Self-supervised multimodal neuroimaging yields predictive representations for a spectrum of Alzheimer&#39;s phenotypes</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/self-supervised-multimodal-neuroimaging-yields-predictive-representations-for-a-spectrum-of-alzheimers-phenotypes/</link>
+      <pubDate>Wed, 07 Sep 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/self-supervised-multimodal-neuroimaging-yields-predictive-representations-for-a-spectrum-of-alzheimers-phenotypes/</guid>
+      <description>Recent neuroimaging studies that focus on predicting brain disorders via modern machine learning approaches commonly include a single modality and rely on supervised over-parameterized models.However, a single modality provides only a limited view of the highly complex brain. Critically, supervised models in clinical settings lack accurate diagnostic labels for training. Coarse labels do not capture the long-tailed spectrum of brain disorder phenotypes, which leads to a loss of generalizability of the model that makes them less useful in diagnostic settings.</description>
+    </item>
+    
+    <item>
+      <title>Pipeline-Invariant Representation Learning for Neuroimaging</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/pipeline-invariant-representation-learning-for-neuroimaging/</link>
+      <pubDate>Sat, 27 Aug 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/pipeline-invariant-representation-learning-for-neuroimaging/</guid>
+      <description>Deep learning has been widely applied in neuroimaging, including to predicting brain-phenotype relationships from magnetic resonance imaging (MRI) volumes. MRI data usually requires extensive preprocessing before it is ready for modeling, even via deep learning, in part due to its high dimensionality and heterogeneity. A growing array of MRI preprocessing pipelines have been developed each with its own strengths and limitations. Recent studies have shown that pipeline-related variation may lead to different scientific findings, even when using the identical data.</description>
+    </item>
+    
+    <item>
+      <title>Interpreting models interpreting brain dynamics</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/interpreting-models-interpreting-brain-dynamics/</link>
+      <pubDate>Thu, 21 Jul 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/interpreting-models-interpreting-brain-dynamics/</guid>
+      <description>Brain dynamics are highly complex and yet hold the key to understanding brain function and dysfunction. The dynamics captured by resting-state functional magnetic resonance imaging data are noisy, high-dimensional, and not readily interpretable. The typical approach of reducing this data to low-dimensional features and focusing on the most predictive features comes with strong assumptions and can miss essential aspects of the underlying dynamics. In contrast, introspection of discriminatively trained deep learning models may uncover disorder-relevant elements of the signal at the level of individual time points and spatial locations.</description>
+    </item>
+    
+    <item>
+      <title>Mind the gap: functional network connectivity interpolation between schizophrenia patients and controls using a variational autoencoder</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/mind-the-gap-functional-network-connectivity-interpolation-between-schizophrenia-patients-and-controls-using-a-variational-autoencoder/</link>
+      <pubDate>Mon, 11 Jul 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/mind-the-gap-functional-network-connectivity-interpolation-between-schizophrenia-patients-and-controls-using-a-variational-autoencoder/</guid>
+      <description>Mental disorders such as schizophrenia have been challenging to characterize due in part to their heterogeneous presentation in individuals. Most studies have focused on identifying groups differences and have typically ignored the heterogeneous patterns within groups. Here we propose a novel approach based on a variational autoencoder (VAE) to interpolate static functional network connectivity (sFNC) across individuals, with group-specific patterns between schizophrenia patients and controls captured simultaneously. We then visualize the original sFNC in a 2D grid according to the samples in the VAE latent space.</description>
+    </item>
+    
+    <item>
+      <title>Statelets: Capturing recurrent transient variations in dynamic functional network connectivity</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/statelets-capturing-recurrent-transient-variations-in-dynamic-functional-network-connectivity/</link>
+      <pubDate>Wed, 01 Jun 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/statelets-capturing-recurrent-transient-variations-in-dynamic-functional-network-connectivity/</guid>
+      <description>Dynamic functional network connectivity (dFNC) analysis is a widely used approach for capturing brain activation patterns, connectivity states, and network organization. However, a typical sliding window plus clustering (SWC) approach for analyzing dFNC models the system through a fixed sequence of connectivity states. SWC assumes connectivity patterns span throughout the brain, but they are relatively spatially constrained and temporally short‐lived in practice. Thus, SWC is neither designed to capture transient dynamic changes nor heterogeneity across subjects/time.</description>
+    </item>
+    
+    <item>
+      <title>Constraint-Based Causal Structure Learning from Undersampled Graphs</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/constraint-based-causal-structure-learning-from-undersampled-graphs/</link>
+      <pubDate>Wed, 18 May 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/constraint-based-causal-structure-learning-from-undersampled-graphs/</guid>
+      <description>Graphical structures estimated by causal learning algorithms from time series data can provide highly misleading causal information if the causal timescale of the generating process fails to match the measurement timescale of the data. Although this problem has been recently recognized, practitioners have limited resources to respond to it, and so must continue using models that they know are likely misleading. Existing methods either (a) require that the difference between causal and measurement timescales is known; or (b) can handle only very small number of random variables when the timescale difference is unknown; or (c) apply to only pairs of variables, though with fewer assumptions about prior knowledge; or (d) return impractically too many solutions.</description>
+    </item>
+    
+    <item>
+      <title>Privacy‐preserving quality control of neuroimaging datasets in federated environments</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/privacypreserving-quality-control-of-neuroimaging-datasets-in-federated-environments/</link>
+      <pubDate>Sun, 01 May 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/privacypreserving-quality-control-of-neuroimaging-datasets-in-federated-environments/</guid>
+      <description>Privacy concerns for rare disease data, institutional or IRB policies, access to local computational or storage resources or download capabilities are among the reasons that may preclude analyses that pool data to a single site. A growing number of multisite projects and consortia were formed to function in the federated environment to conduct productive research under constraints of this kind. In this scenario, a quality control tool that visualizes decentralized data in its entirety via global aggregation of local computations is especially important, as it would allow the screening of samples that cannot be jointly evaluated otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Decentralized Brain Age Estimation using MRI Data</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/decentralized-brain-age-estimation-using-mri-data/</link>
+      <pubDate>Tue, 05 Apr 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/decentralized-brain-age-estimation-using-mri-data/</guid>
+      <description>Recent studies have demonstrated that neuroimaging data can be used to estimate biological brain age, as it captures information about the neuroanatomical and functional changes the brain undergoes during development and the aging process. However, researchers often have limited access to neuroimaging data because of its challenging and expensive acquisition process, thereby limiting the effectiveness of the predictive model. Decentralized models provide a way to build more accurate and generalizable prediction models, bypassing the traditional data-sharing methodology.</description>
+    </item>
+    
+    <item>
+      <title>Three‐way parallel group independent component analysis: Fusion of spatial and spatiotemporal magnetic resonance imaging data</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/three-way-parallel-group-independent-component-analysis-fusion-of-spatial-and-spatiotemporal-magnetic-resonance-imaging-data/</link>
+      <pubDate>Tue, 01 Mar 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/three-way-parallel-group-independent-component-analysis-fusion-of-spatial-and-spatiotemporal-magnetic-resonance-imaging-data/</guid>
+      <description>Advances in imaging acquisition techniques allow multiple imaging modalities to be collected from the same subject. Each individual modality offers limited yet unique views of the functional, structural, or dynamic temporal features of the brain. Multimodal fusion provides effective ways to leverage these complementary perspectives from multiple modalities. However, the majority of current multimodal fusion approaches involving functional magnetic resonance imaging (fMRI) are limited to 3D feature summaries that do not incorporate its rich temporal information.</description>
+    </item>
+    
+    <item>
+      <title>Deep learning in neuroimaging: Promises and challenges</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/deep-learning-in-neuroimaging-promises-and-challenges/</link>
+      <pubDate>Thu, 24 Feb 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/deep-learning-in-neuroimaging-promises-and-challenges/</guid>
+      <description>Deep learning (DL) has been extremely successful when applied to the analysis of natural images. By contrast, analyzing neuroimaging data presents some unique challenges, including higher dimensionality, smaller sample sizes, multiple heterogeneous modalities, and a limited ground truth. In this article, we discuss DL methods in the context of four diverse and important categories in the neuroimaging field: classification/prediction, dynamic activity/connectivity, multimodal fusion, and interpretation/visualization. We highlight recent progress in each of these categories, discuss the benefits of combining data characteristics and model architectures, and derive guidelines for the use of DL in neuroimaging data.</description>
+    </item>
+    
+    <item>
+      <title>Federated analysis in COINSTAC reveals functional network connectivity and spectral links to smoking and alcohol consumption in nearly 2,000 adolescent brains</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/federated-analysis-in-coinstac-reveals-functional-network-connectivity-and-spectral-links-to-smoking-and-alcohol-consumption-in-nearly-2000-adolescent-brains/</link>
+      <pubDate>Sat, 01 Jan 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/federated-analysis-in-coinstac-reveals-functional-network-connectivity-and-spectral-links-to-smoking-and-alcohol-consumption-in-nearly-2000-adolescent-brains/</guid>
+      <description>With the growth of decentralized/federated analysis approaches in neuroimaging, the opportunities to study brain disorders using data from multiple sites has grown multi-fold. One such initiative is the Neuromark, a fully automated spatially constrained independent component analysis (ICA) that is used to link brain network abnormalities among different datasets, studies, and disorders while leveraging subject-specific networks. In this study, we implement the neuromark pipeline in COINSTAC, an open-source neuroimaging framework for collaborative/decentralized analysis.</description>
+    </item>
+    
+    <item>
+      <title>Path analysis: A method to estimate altered pathways in time-varying graphs of neuroimaging data</title>
+      <link>https://cedwards57.github.io/webtest/posts/papers/path-analysis-a-method-to-estimate-altered-pathways-in-time-varying-graphs-of-neuroimaging-data/</link>
+      <pubDate>Sat, 01 Jan 2022 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/papers/path-analysis-a-method-to-estimate-altered-pathways-in-time-varying-graphs-of-neuroimaging-data/</guid>
+      <description>Graph-theoretical methods have been widely used to study human brain networks in psychiatric disorders. However, the focus has primarily been on global graphic metrics with little attention to the information contained in paths connecting brain regions. Details of disruption of these paths may be highly informative for understanding disease mechanisms. To detect the absence or addition of multistep paths in the patient group, we provide an algorithm estimating edges that contribute to these paths with reference to the control group.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

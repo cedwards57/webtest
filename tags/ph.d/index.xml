@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ph.D on Sergey Plis</title>
+    <link>https://cedwards57.github.io/webtest/tags/ph.d/</link>
+    <description>Recent content in Ph.D on Sergey Plis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cedwards57.github.io/webtest/tags/ph.d/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Armina Fani</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/armina-fani/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/armina-fani/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joanne Wardell</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/joanne-wardell/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/joanne-wardell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alex Fedorov</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/alex-fedorov/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/alex-fedorov/</guid>
+      <description>I am a third year Ph.D. student in Electrical &amp;amp; Computer Engineering at Georgia Institute of Technology under the supervision of Dr. Sergey Plis and Dr. Vince D. Calhoun. I have interned at Microsoft Research Redmond and Mila - Quebec AI Institute.
+Research Summary I am interested in the following topics (with selected works):
+Self-Supervision: Natural Images [ICLR 2019], Neuroimaging [IEEE BHI 2019][MICCAI 2020][NeurIPS ML4H Workshop 2019] Multimodal Learning: Neuroimaging [IEEE ICHI 2021] Out-of-distribution Generalization, Robustness and Fairness: Neuroimaging [ICLR RobustML Workshop 2021] Interpretability: Neuroimaging [IEEE ISBI 2021], [Preprint] Image Segmentation: Brain Tissue [IJCNN 2017], Atlas [BigNeuro Workshop NeurIPS 2017] I also worked on Reinforcement Learning [NeurIPS Deep RL Workshop 2015] and Computer Vision problems (traffic sign recognition; age and gender recognition from human faces).</description>
+    </item>
+    
+    <item>
+      <title>Brad Baker</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/postdoc/brad-baker/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/postdoc/brad-baker/</guid>
+      <description>I am primarily interested in machine learning and its intersections with complex applications and theory. My current research interests are focused in leveraging insights from optimization and neural computation to interpret and innovate on Artificial Neural Networks. I am interested in novel methods for applying deep learning to neuroimaging data, especially drawing from distributed learning for performing efficient and privacy sensitive analyses in large scale, collaborative settings. I am additionally interested in the use of information theory for training and interpreting neural networks, the application of complex network theory principles to modelling neural dynamics, and drawing inspiration from neuroscience to innovate with artificial neural networks and vice-versa.</description>
+    </item>
+    
+    <item>
+      <title>Pavel Popov</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/pavel-popov/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/pavel-popov/</guid>
+      <description>Hi everyone! I got bachelor&amp;rsquo;s and master&amp;rsquo;s degrees in physics and mathematics at the Moscow Institute of Physics and Technology, after which I decided to aspire to a Ph.D. in Computer science and Machine Learning at Georgia State University.
+My current research interests lie within the applications of Machine Learning to Neuroscience problems, mainly brain connectivity.</description>
+    </item>
+    
+    <item>
+      <title>William Ashbee</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/william-ashbee/</link>
+      <pubDate>Fri, 07 Aug 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/william-ashbee/</guid>
+      <description>William Stewart Ashbee is a doctoral student at Department of Computer Science at Georgia State University since Fall 2019. He is researching deep learning based brain surface reconstruction methods that produce surface meshes from MRI voxel images. At present, he has reviewed multiple methods and is preparing to combine and extend these methods for publication. This exciting area of research utilizes geometric deep learning and pytorch3d. He hopes to build a deep learning method to compete with Freesurfer.</description>
+    </item>
+    
+    <item>
+      <title>Riyasat Ohib</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/riyasat-ohib/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/riyasat-ohib/</guid>
+      <description>I am a Ph.D. student at the Georgia Institute of Technology in the department of Electrical and Computer Engineering. I am primarily interested in Machine Learning and Deep Learning, focusing in the areas of sparsity in deep learning, efficient ML and optimization. Currently, I am working on developing novel methods of inducing sparsity in deep neural networks and studying the effects it has in the models. More recently, I have also started working in the areas of sparse reinforcement learning and multi-task learning.</description>
+    </item>
+    
+    <item>
+      <title>Sajad Abavisani</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/sajad-abavisani/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/sajad-abavisani/</guid>
+      <description>My current research focus is causal inference from time series. I test my methods on fMRI data, which is a form of time series data. I pioneering a new method for causal structure discovery in the presence of a mismatch between the causal time scale and measurement time scale. Using graph theory I tackled limited time point time series. I&amp;rsquo;ve achieved a remarkable three orders of magnitude improvement in runtime. Furthermore, I am Investigating the use of slower measurement rates to improve causal mechanism estimation and developing an algorithm that leverages data collected at various sampling rates.</description>
+    </item>
+    
+    <item>
+      <title>Usman Mahmood</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/usman-mahmood/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/usman-mahmood/</guid>
+      <description>I am pursuing a Ph.D. with a concentration in machine learning, working on NeuroImages {fMRIs} to classify and predict brain disorders and estimate disorder-specific dynamic and directed graphs of the human brain. I am interested in creating &amp;lsquo;glass-box&amp;rsquo; deep learning models that produce interpretable results.</description>
+    </item>
+    
+    <item>
+      <title>Yaorong Xiao</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/yaorong-xiao/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/yaorong-xiao/</guid>
+      <description>I am interested in machine learning model optimization, multimodal data analysis, imaging inpainting, and many other machine learning algorithms. I am currently working on ICA, applying entropy maximization as the objective of the training process. I am very happy to join any machine learning related research.</description>
+    </item>
+    
+    <item>
+      <title>Minoo Jafarlou</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/minoo-jafarlou/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/minoo-jafarlou/</guid>
+      <description>Minoo Jafarlou is a Ph.D. student in Computer Science at Georgia State University. She works as a graduate research assistant at TReNDS center. Her educational background is in computer engineering (BS) and computer science (MS). Minoo is interested in multimodal neuroimaging, deep learning, and machine learning. She is currently working on Few-Shot Learning.</description>
+    </item>
+    
+    <item>
+      <title>Zafar Iqbal</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/zafar-iqbal/</link>
+      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/zafar-iqbal/</guid>
+      <description>My research is primarily focussed on applying deep learning neural networks to neuroimaging data. My current research is focussed on using pre-trained models trained on time direction of FMRI data to predict and classify different abnormalities in the brain. We believe such pertained models could help learn better the brain functions. Recurrent Neural Networks work well with time series data. The goal is to develop models by exploiting the capabilities of RNNS and observe their performance on benchmark medical datasets.</description>
+    </item>
+    
+    <item>
+      <title>Md Mahfuzur Rahman</title>
+      <link>https://cedwards57.github.io/webtest/posts/team/phd/md-mahfuzur-rahman/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cedwards57.github.io/webtest/posts/team/phd/md-mahfuzur-rahman/</guid>
+      <description>I am a Ph.D. candidate in Computer Science at Georgia State University. My research interests primarily lie in the shared space of XAI, medical imaging, and computer vision. In my ongoing research, I mainly focus on developing machine learning/deep learning models and leveraging explainable AI to advance our understanding of brain disorders. I put my endeavor into creating new learning algorithms, explanation methods, metrics, and frameworks useful to build interpretable AI models and apply them to broaden our understanding in the neuroscience space.</description>
+    </item>
+    
+    
+  </channel>
+</rss>
